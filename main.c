@@ -82,9 +82,6 @@ task main()
 {
 	while(true)
 	{
-		turnFlashlightOn(windowFlashlight1);
-		turnFlashlightOn(windowFlashlight2);
-		turnFlashlightOn(doorFlashlight);
 		if(SensorValue(armSwitch) == 1)	//if you touch the arm button
 		{
 			wait(10);	//wait 10
