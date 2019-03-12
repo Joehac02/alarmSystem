@@ -44,11 +44,12 @@ task main()
 					while(SensorValue(outLightSensor) < 100)
 					{
 					LEDShow(); //light up LEDs
-					}
 					if(SensorValue(outLightSensor) < 50) //if keyLightSensor gets a low value (lazer)
-					{
-						stopAllTasks(); //then end program
+						{
+							stopAllTasks(); //then end program
+						}
 					}
+					
 				}
 			}
 		}	
